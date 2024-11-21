@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Application</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <div class="status-container">
+      <div class="detaile">
+        <h2>Todo Done</h2>
+        <p>Keep it Up</p>
+        <div id="prograsBar">
+          <div id="progras"></div>
+        </div>
+      </div>
+      <div class="status-num">
+        <p id="numbers"> 0/0</p>
+      </div>
+    </div>
+
+    <form >
+      <input id="textInput" type="text" placeholder="Write Your Task">
+      <button id="addBtn" type="submit">+</button>
+    </form>
+
+    <ul id="task-list">
+
+    </ul>
+  </div>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
